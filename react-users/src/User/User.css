@@ -1,0 +1,9 @@
+.User__wrapper {
+    border: solid 1px black;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.User__text {
+    margin: 0px 0px;
+}

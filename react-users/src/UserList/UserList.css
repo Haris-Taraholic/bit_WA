@@ -1,0 +1,11 @@
+.UserList__image {
+    width: 50px;
+}
+
+.UserList__wrapper {
+    margin: 10px auto 20px;
+}
+
+.UserList__textContent {
+    margin: 0px;
+}
