@@ -1,0 +1,20 @@
+#search {
+  width: 95%;
+  margin-left: 30px;
+  border: 0px;
+  border-bottom: 1px solid grey;
+  outline: white;
+}
+.App__search {
+  width: 70%;
+  margin: 20px auto;
+}
+.counter {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+#search:hover {
+  border: white solid 1px;
+}

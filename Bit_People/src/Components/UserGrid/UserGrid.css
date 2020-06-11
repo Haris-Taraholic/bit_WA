@@ -1,0 +1,34 @@
+.UserGrid__wrapper {
+  width: 30%;
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+}
+.UserGrid__container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.UserGrid__wrapper img {
+  width: 100%;
+}
+.active {
+  display: none;
+}
+.UserGrid__nameWrapper {
+  position: relative;
+}
+.UserGrid__nameWrapper p {
+  position: absolute;
+  top: -50px;
+  color: white;
+  padding-left: 20px;
+}
+.UserGrid__wrapper p {
+  padding-left: 20px;
+}
+.femaleGrid {
+  background-color: #ffebee;
+}

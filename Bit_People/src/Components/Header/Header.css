@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(214, 66, 79);
+  height: 40px;
+  font-size: small;
+  color: white;
+}
+.Header__btn {
+  height: 30px;
+}
+.header__buttonWrapper {
+  width: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header__buttonWrapper svg {
+  font-size: large;
+}
