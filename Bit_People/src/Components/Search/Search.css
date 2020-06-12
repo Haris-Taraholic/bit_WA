@@ -1,0 +1,11 @@
+.Search__nothingFound {
+  text-align: center;
+  width: 40%;
+  margin: 200px auto;
+  font-size: 40px;
+}
+.iconSmile > svg {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+}
