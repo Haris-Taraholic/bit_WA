@@ -1,8 +1,9 @@
-.Header__wrapper > h1 {
-  background-color: #ff0000;
-  text-align: left;
-  color: #fff;
-  height: 75px;
-  padding-top: 13px;
-  margin-left: 15px;
+.Header__wrapper>h1 {
+    background-color: #ff0000;
+    text-align: left;
+    color: #fff;
+    height: 75px;
+    padding-top: 13px;
+    margin-left: 15px;
+    padding-left: 30px;
 }

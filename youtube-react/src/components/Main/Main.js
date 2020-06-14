@@ -31,19 +31,23 @@ class Main extends React.Component {
     }
 
     render() {
-        return (
-            <div className="Main__wrapper container" >
-                <div className="row">
-                    <Search getData={this.getData} />
-                    {
-                        !this.state.videoId
-                            ? <ListSearchedVideos videos={this.state.data} onClick={this.singleVideo} />
-                            : <VideoPlayer id={this.state.videoId} getId={this.singleVideo} />
-                    }
-                </div>
-            </div >
-        )
-    }
+        return ( <
+                div className = "Main__wrapper container" >
+                <
+                div className = "row" >
+                <
+                Search getData = { this.getData }
+                /> {!this.state.videoId ?
+                <
+                ListSearchedVideos videos = { this.state.data }
+                onClick = { this.singleVideo }
+                />: < VideoPlayer id = { this.state.videoId }
+                getId = { this.singleVideo }
+                />
+            } < /div>  <
+            /div >
+    )
+}
 }
 
 export { Main }
