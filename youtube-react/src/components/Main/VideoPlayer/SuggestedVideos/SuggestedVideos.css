@@ -1,0 +1,14 @@
+.SuggestedVideos__wrapper > div {
+  margin-top: 10px;
+}
+
+.SuggestedVideos__wrapper {
+  border-left: 1px solid lightgray;
+}
+
+.SuggestedVideos__wrapper > div > h4 {
+  font-size: 14px;
+}
+.SuggestedVideos__wrapper > div > p {
+  font-size: 14px;
+}

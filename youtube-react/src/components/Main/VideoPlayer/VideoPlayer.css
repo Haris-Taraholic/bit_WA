@@ -1,0 +1,6 @@
+.VideoPlayer__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+

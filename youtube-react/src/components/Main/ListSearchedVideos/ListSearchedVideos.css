@@ -1,0 +1,26 @@
+.ListSearchedVideos__wrapper {
+  display: flex;
+  margin: 10px;
+}
+
+.ListSearchedVideos__info {
+  padding: 10px;
+}
+.ListSearchedVideos__wrapper > img {
+  margin-right: 10px;
+}
+
+.ListSearchedVideos__wrapper > div > h3 {
+  font-size: 24px;
+}
+
+.ListSearchedVideos__wrapper > div > p {
+  font-size: 16px;
+}
+
+/*On hover*/
+
+.ListSearchedVideos__wrapper:hover {
+  box-shadow: 0px 0px 5px 1px lightgrey;
+  transition: 0.3s ease-in-out;
+}

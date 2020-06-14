@@ -1,0 +1,8 @@
+.Search__input {
+  margin-top: 25px;
+}
+
+.Search__wrapper > span > svg {
+  width: 25px;
+  height: 25px;
+}
