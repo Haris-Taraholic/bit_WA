@@ -1,0 +1,14 @@
+.Header__container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.Header__wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+.Header__container > li {
+    margin-left: 5px;
+}

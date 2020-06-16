@@ -1,0 +1,17 @@
+.ListofPosts__container {
+    width: 70%;
+    margin: 10px auto;
+}
+.ListofPosts__header {
+    margin: 15px auto;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 42px;
+}
+.ListofPosts__wrapper_post {
+    margin: 20px auto;
+    border-bottom: solid 1px black;
+}
+.ListofPosts__header_title {
+    font-size: 36px;
+}

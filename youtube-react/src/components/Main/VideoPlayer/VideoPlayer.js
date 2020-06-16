@@ -1,6 +1,7 @@
 import React from 'react';
 import { SuggestedVideos } from './SuggestedVideos/SuggestedVideos';
 import './VideoPlayer.css'
+import { PreviouslyVisitedVideos } from "../PreviouslyVisitedVideos/PreviouslyVisitedVideos";
 
 class VideoPlayer extends React.Component {
     constructor(props) {
@@ -15,12 +16,11 @@ class VideoPlayer extends React.Component {
     }
 
     render() {
-        return this.props.id !== '' ? < div className = "VideoPlayer__wrapper col-lg-12" > < iframe width = "700"
-        height = "400"
-        src = { `https://www.youtube.com/embed/${this.props.id}` } > < /iframe> <
-        div > < SuggestedVideos data = { this.state.data }
-        getId = { this.props.getId }
-        /></div > < /div > : null
+        return this.props.id !== '' ? < div className="VideoPlayer__wrapper col-lg-12" > < iframe width="700" height="400" src={`https://www.youtube.com/embed/${this.props.id}`} > </iframe>
+            <div> < SuggestedVideos data={this.state.data} getId={this.props.getId} />
+            </div>
+            <div><PreviouslyVisitedVideos /></div>
+        </div> : null
     }
 }
 export { VideoPlayer }

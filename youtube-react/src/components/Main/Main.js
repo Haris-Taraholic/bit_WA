@@ -9,9 +9,8 @@ class Main extends React.Component {
         super(props)
         this.state = {
             data: [],
-            videoId: null
+            videoId: null,
         }
-
     }
     getData = (event) => {
         let searchValue = event.target.value
@@ -23,31 +22,25 @@ class Main extends React.Component {
         event.stopPropagation();
     }
 
-    singleVideo = (id) => {
+    singleVideo = (item) => {
         this.setState({
-            videoId: id,
+            videoId: item.id.videoId,
             data: []
         })
+        sessionStorage.setItem("previus", JSON.stringify(item))
     }
 
     render() {
-        return ( <
-                div className = "Main__wrapper container" >
-                <
-                div className = "row" >
-                <
-                Search getData = { this.getData }
-                /> {!this.state.videoId ?
-                <
-                ListSearchedVideos videos = { this.state.data }
-                onClick = { this.singleVideo }
-                />: < VideoPlayer id = { this.state.videoId }
-                getId = { this.singleVideo }
-                />
-            } < /div>  <
-            /div >
-    )
-}
+        return (<div className="Main__wrapper container" >
+            <div className="row" >
+                <Search getData={this.getData} />
+                {!this.state.videoId ?
+                    <ListSearchedVideos videos={this.state.data} onClick={this.singleVideo}
+                    /> : < VideoPlayer id={this.state.videoId} getId={this.singleVideo} />
+                } </div>
+        </div >
+        )
+    }
 }
 
 export { Main }
