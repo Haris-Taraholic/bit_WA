@@ -1,0 +1,12 @@
+.SingleAuthor__wrapper {
+    display: flex;
+    width: 70%;
+    margin: 35px auto;
+    border-bottom: 1px solid black;
+}
+.SingleAuthor__authorData {
+    margin-left: 20px;
+}
+.SingleAuthor__wrapper:last-child {
+    padding-bottom: 20px;
+}

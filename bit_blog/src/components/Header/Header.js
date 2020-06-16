@@ -6,7 +6,7 @@ const Header = () => {
         <h1>RND BLG</h1>
         <ul className="Header__container">
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/authors">Authors</Link></li>
+            <li><Link to="/author">Authors</Link></li>
             <li><Link to="/about">About</Link></li>
         </ul>
     </div>
